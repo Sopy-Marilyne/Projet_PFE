@@ -114,11 +114,11 @@ Le Groupe CETAB (Centre Etude Technique Aquitain du Bâtiment) est un Bureau d�
     # Texte défilant
     st.markdown("""
     <div class="marquee">
-        <div>Ceci est un outil interne au groupe CETAB permettant une extraction rapide des données dans les contrats.</div>
+        <div>Ceci est un outil interne au groupe CETAB permettant une extraction rapide des données.</div>
     </div>
     """, unsafe_allow_html=True)
 
-    st.title("DECOMPOSITION DE PRIX GLOBAL ET FORFAITAIRE")
+    st.title("OUTIL DE DECOMPOSITION DE PRIX GLOBAL ET FORFAITAIRE")
 
     if uploaded_file_word:
         with st.spinner('Extraction des ouvrages...'):
