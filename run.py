@@ -106,7 +106,7 @@ Le Groupe CETAB (Centre Etude Technique Aquitain du Bâtiment) est un Bureau d�
         uploaded_file_excel = st.file_uploader("Choisissez le template (.xlsx)", type=['xlsx'])
 
         # Champs de saisie pour les contenus des cellules A2 et C2
-        cell_A2_content = st.text_input("PROJET", "")
+        cell_A2_content = st.text_input("NOM DU PROJET", "")
         cell_C2_content = st.text_input("N° du Lot", "xx - xxxxxxxxxxxxxxxxx")
         feuille_ = 'LOT ' + cell_C2_content[:2]
         feuille = "LOT XX"
