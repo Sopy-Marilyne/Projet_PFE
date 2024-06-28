@@ -114,7 +114,7 @@ Le Groupe CETAB (Centre Etude Technique Aquitain du Bâtiment) est un Bureau d�
     # Texte défilant
     st.markdown("""
     <div class="marquee">
-        <div>Ceci est un outil interne au groupe CETAB permettant une extraction rapide des ouvrages dans les contrats.</div>
+        <div>Ceci est un outil interne au groupe CETAB permettant une extraction rapide des données dans les contrats.</div>
     </div>
     """, unsafe_allow_html=True)
 
