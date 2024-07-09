@@ -98,7 +98,7 @@ def main():
         st.image("logo-cetab.jpg", width=200)
         st.markdown("""
             <p>
-Le Groupe CETAB (Centre Etude Technique Aquitain du Bâtiment) est un Bureau d’études pluridisciplinaire spécialisé dans l’ingénierie du bâtiment, de l’infrastructure et de l’environnement.</p>
+Le Groupe CETAB (Centre Etude Technique Aquitaine du Bâtiment) est un Bureau d’études pluridisciplinaire spécialisé dans l’ingénierie du bâtiment, de l’infrastructure et de l’environnement.</p>
         """, unsafe_allow_html=True)
 
         st.write("## Paramètres")
