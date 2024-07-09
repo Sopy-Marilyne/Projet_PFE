@@ -138,7 +138,7 @@ Le Groupe CETAB (Centre Etude Technique Aquitaine du Bâtiment) est un Bureau d�
 
         st.dataframe(st.session_state.df_titres_, height=800, width=1200)
 
-        if uploaded_file_excel and st.button('Télécharger le DPGF au format Excel'):
+        if uploaded_file_excel and st.button('Télécharger la DPGF au format Excel'):
             # Convertir le fichier Excel téléchargé en BytesIO
             excel_data = BytesIO(uploaded_file_excel.read())
             df_modifie = inserer_sous_totaux(st.session_state.df_titres_)
